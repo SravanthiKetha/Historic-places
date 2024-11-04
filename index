@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HISTORICAL PLACES</title>
+  <link rel="stylesheet" href="historicplaces.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" >
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <style>
+    body{
+        background-image:url("bg1.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size:100% 100%;
+        
+    }
+  </style>
+</head>
+<body >
+  <div class="wrapper">
+  <head > 
+  <h1 style="text-align:center; font-family:Courier New;"></style>Historical Places In India</h1>
+  </head>
+  <nav class="navbar navbar-expand-lg abc">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="https://en.wikipedia.org/wiki/India" target="_blank"><img src="ind.jpeg" width="47px" style="border-radius: 20px; height: 43px;object-fit:fill;"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="https://www.google.com/search?q=historic+places+of+india&tbm=isch&hl=en-GB&chips=q:historic+places+of+india,online_chips:tourist+attractions:9rSq0LWR7Xs%3D&rlz=1C1CHBF_enIN1047IN1047&sa=X&ved=2ahUKEwjkmuHT9NKCAxXsa2wGHa5hB1cQ4lYoBnoECAEQOg&biw=1106&bih=481" target="_blank">Pictures</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="https://www.yatra.com/india-tourism" target="_blank">Tourism Packages in INDIA</a>
+          </li>  
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-light btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <main>
+    <div class="container">
+  <div class="row row-cols-1 row-cols-sm-3 g-4 cont " style="text-align: center;
+  position: absolute;top: 30% ;left:5%; right: 5%; ">
+    <div class="col p-10 m-30" style="width:350px;">
+      <div class="container-fluid" style="border-radius: 30px;">
+        <img src="Taj.jpg"class="card-img-top imge">
+
+        <div class="container-fluid">
+          <h2 class="card-title" >Taj Mahal</h2>
+          <h4 class="card-subtitle">Agra </h4>
+          <h5 class="card-text tetx-body-secondary" ><small>One of the seven wonders of the world, the Taj Mahal was built by the Mughal emperor Shah Jahan in memory of his wife, Mumtaz Begum. It is situated in the city of Agra in Uttar Pradesh on the banks of the river Yamuna. It took 16 years(1632 to 1648)for this monument to be built.</small></h5>
+          <div class="icons">
+            <h1>
+              <a href="https://en.wikipedia.org/wiki/Taj_Mahal" target="new"><i class="bi bi-wikipedia"></i></a>
+              <a href="https://maps.app.goo.gl/t4cSS97EWkZrLLfA6" target="new"><i class="bi bi-geo-alt-fill"></i></a>
+            </h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col p-10 m-30" style="width: 350px">
+      <div class="container" style="border-radius: 30px">
+        <img src="Hawa.jpg" class="card-img-top imge" >
+        <div class="container-fluid">
+          <h2 class="card-title">Hawa Mahal</h2>
+          <h4 class="card-subtitle">Jaipur</h4>
+          <h5 class="card-text"><small> Built-in red and pink sandstone Hawa Mahal is located in the heart of Jaipur. Though called a Mahal, it is more of a gallery created to enable the royal ladies to look out as they had to observe the purdah. </small> </h5>
+          <div class="icons">
+            <h1>
+              <a href="https://en.wikipedia.org/wiki/Hawa_Mahal" target="new"><i class="bi bi-wikipedia"></i></a>
+              <a href="https://www.google.com/maps/search/hawa+mahal/@26.9195911,75.7663018,13z/data=!3m1!4b1?entry=ttu" target="new"><i class="bi bi-geo-alt-fill"></i></a>
+            </h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col p-10 m-30" style="width: 350px">
+      <div class="container" style="border-radius: 30px">
+        <img src="Konark.jpg" class="card-img-top imge">
+        <div class="container-fluid">
+          <h2 class="card-title">Konark Temple</h5>
+          <h4 class="card-subtitle">Oddisha</h4>
+          <h5 class="card-text"><small> A UNESCO world heritage site, it is one of the Seven Wonders of India. The Kalinga architecture is reflected in the gigantic chariot, the pillars and the walls of the temple. Made from Khandolite rocks, the temple is another must-visit.</small></h5>
+          <div class="icons">
+            <h1>
+              <a href="https://en.wikipedia.org/wiki/Konark_Sun_Temple" target="new"><i class="bi bi-wikipedia"></i></a>
+              <a href="https://maps.app.goo.gl/qPCcHXuTCi4aEDpT7" target="new"><i class="bi bi-geo-alt-fill"></i></a>
+            </h1>
+          </div>
+        </div>
+      </div> 
+    </div>
+    <div class="col p-10 m-30" style="width: 350px">
+      <div class="container-fluid " style="border-radius: 30px">
+        <img src="sanchi.jpeg" class="card-img-top imge" alt="...">
+        <div class="container-fluid">
+          <h2 class="card-title">Sanchi Stupa</h2>
+          <h4 class="card-subtitle">Madhya Pradesh</h4>
+          <h5 class="card-text"><small> Ancient relics of Lord Buddha can be found in the dome-shaped structure of the stupa. Commissioned by King Ashoka, the 54 ft high stupa depicts Lord Buddha’s life through some breathtaking carvings, yet another UNESCO World Heritage site.</small></h5>
+          <div class="icons">
+            <h1>
+              <a href="https://en.wikipedia.org/wiki/Sanchi" target="new"><i class="bi bi-wikipedia"></i></a>
+              <a href="https://maps.app.goo.gl/mzk3gnCsgW62JdHS9" target="new"><i class="bi bi-geo-alt-fill"></i></a>
+            </h1>
+          </div>
+        </div>
+      </div> 
+    </div>
+    <div class="col p-10 m-30" style="width: 350px">
+      <div class="container-fluid" style="border-radius: 30px">
+        <img src="Mysore.jpg" class="card-img-top imge" alt="...">
+        <div class="container-fluid">
+          <h2 class="card-title">Mysore Palace</h2>
+          <h4 class="card-subtitle">Karnataka</h4>
+          <h5 class="card-text"><small>The palace was built in 1912 for the 24th ruler of the Wodeyar dynasty. To date, it is one of the biggest palaces in the country. Located in the centre of the city, it is an architectural wonder built in the Indo-Saracenic style with intricate and breathtaking interiors.</small></h5>
+          <div class="icons">
+            <h1>
+              <a href="https://en.wikipedia.org/wiki/Mysore_Palace" target="new"><i class="bi bi-wikipedia"></i></a>
+              <a href="https://maps.app.goo.gl/Ki9Yrhzch4eYS4Bi7" target="new"><i class="bi bi-geo-alt-fill"></i></a>
+            </h1>
+          </div>
+        </div>
+      </div> 
+    </div>
+    <div class="col p-10 m-30" style="width: 350px">
+      <div class="container-fluid" style="border-radius: 30px">
+        <img src="Char.jpg" class="card-img-top imge" >
+        <div class="container-fluid">
+          <h2 class="card-title">Charminar</h2>
+          <h4 class="card-subtitle">Telangana</h4>
+          <h5 class="card-text"><small>This four-column structure was built by Mohd. Quli Qutb Shah in 1591 marked the end of the plague. It is a massive 56-metre high structure which consists of four arches facing the cardinal points with minarets on top of each column.</small></h5>
+          <div class="icons">
+            <h1>
+              <a href="https://en.wikipedia.org/wiki/Charminar" target="new"><i class="bi bi-wikipedia"></i></a>
+              <a href="https://maps.app.goo.gl/DKbwTt51Fhhy43qd9" target="new"><i class="bi bi-geo-alt-fill"></i></a>
+            </h1>
+          </div>
+        </div>
+      </div> 
+    </div>
+    <div class="col p-10 m-30" style="width: 350px">
+      <div class="container-fluid" style="border-radius: 30px">
+        <img src="tomb.jpeg" class="card-img-top imge" alt="...">
+        <div class="container-fluid">
+          <h3 class="card-title">Humayun's Tomb</h3>
+          <h4 class="card-subtitle">Delhi</h4>
+          <h5 class="card-text"><small>Its exquisite Persian architecture inspired several architectural wonders culminating with the Taj mahal 80 years later. It stands in the centre of Charbagh-style gardens with pools linked by channels. This is a UNESCO World Heritage site</small></h5>
+          <div class="icons">
+            <h1>
+              <a href="https://en.wikipedia.org/wiki/Humayun%27s_Tomb" target="new"><i class="bi bi-wikipedia"></i></a>
+              <a href="https://maps.app.goo.gl/H8zK3pthwBdYbdwu7" target="new"><i class="bi bi-geo-alt-fill"></i></a>
+            </h1>
+          </div>
+        </div>
+      </div> 
+    </div>
+    <div class="col p-10 m-30" style="width: 350px">
+      <div class="container-fluid" style="border-radius: 30px">
+        <img src="Meh.webp" class="card-img-top imge">
+        <div class="container-fluid">
+          <h3 class="card-title">Mehrangarh Fort</h3>
+          <h4 class="card-subtitle">Rajasthan</h4>
+          <h5 class="card-text"><small> Built in 1459, it is situated at the top of a 410 feet hill and overlooks the walled city of Jodhpur. Massive walls guard it, and it now houses a museum displaying weapons, paintings and other royal possessions. It is one of the most well-maintained forts of India built by the Rathore Rajputs.</small></h5>
+          <div class="icons">
+            <h1>
+              <a href="https://en.wikipedia.org/wiki/Mehrangarh" target="new"><i class="bi bi-wikipedia"></i></a>
+              <a href="https://maps.app.goo.gl/PQ5K5RRG8GsJTVDS6" target="new"><i class="bi bi-geo-alt-fill"></i></a>
+            </h1>
+          </div>
+        </div>
+      </div> 
+    </div>
+    <div class="col p-10 m-30" style="width: 350px">
+      <div class="container-fluid" style="border-radius: 30px">
+        <img src="gate.jpeg" class="card-img-top imge" alt="...">
+        <div class="container-fluid">
+          <h3 class="card-title">GateWay of India</h3>
+          <h4 class="card-subtitle">Maharastra</h4>
+          <h5 class="card-text"><small> An iconic landmark overlooking the Mumbai harbour, it was built by the British in 1924 to commemorate the visit of King-Emperor George V, the first British monarch to visit India. Made in the Indo- Saracenic style, the structure also incorporates elements of 16th-century Gujarati architecture. </small></h5>
+          <div class="icons">
+            <h1>
+              <a href="https://en.wikipedia.org/wiki/Gateway_of_India" target="new"><i class="bi bi-wikipedia"></i></a>
+              <a href="https://maps.app.goo.gl/sygoxZsG1oroe9f86" target="new"><i class="bi bi-geo-alt-fill"></i></a>
+            </h1>
+          </div>
+        </div>
+      </div> 
+    </div>
+    <br>
+    <br>
+    <br>
+  </div>
+</div>
+</main>
+</div>
+  <footer >
+    <p style="display: inline-block; margin-right: 70%;">Designed By KethaSravanthi</p>
+    <a class="nav-link active" style="display: inline-block; margin-left: 5px;" href="tel:+91836766185" target="_blank"
+    ><i class="bi bi-telephone"></i></a>
+    <a class="nav-link active" style="display: inline-block; margin-left: 5px;" target="_blank" href="mailto:sravanthi.ketha2904@gmail.com" 
+    ><i class="bi bi-envelope"></i></a>
+   
+  </footer>
+</body>
+</html>
